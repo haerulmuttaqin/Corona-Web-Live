@@ -1,0 +1,187 @@
+.shine {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+}
+
+.shine-dark {
+     background: #d7d8d9;
+     background-image: linear-gradient(to right, #d7d8d9 0%, #e3e4e7 20%, #d7d8d9 40%, #d7d8d9 100%);
+     background-repeat: no-repeat;
+     background-size: 800px 104px;
+     display: inline-block;
+     position: relative;
+     border-radius: 5px;
+
+     -webkit-animation-duration: 1s;
+     -webkit-animation-fill-mode: forwards;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-name: placeholderShimmer;
+     -webkit-animation-timing-function: linear;
+ }
+
+.shine-image3 {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #fdfeff 20%, #f4f5f6 40%, #d7d8d9 60%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 5px;
+
+    -webkit-animation-duration: 1.1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+}
+
+.shine-image2 {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #fdfeff 20%, #f4f5f6 40%, #d7d8d9 60%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 5px;
+
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+}
+
+.shine-image1 {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #fdfeff 20%, #f4f5f6 40%, #d7d8d9 60%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 5px;
+
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+}
+
+.shimmer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    background-color: white;
+}
+
+.shimmer-image {
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+.shimmer-map {
+    padding-left: 0;
+    padding-right: 0;
+    height: 200px;
+    z-index: 2;
+    background-color: white;
+}
+
+
+box-page-len {
+    height: 30px;
+    width: 56px;
+}
+
+box-search {
+    height: 30px;
+    width: 176px;
+}
+
+box {
+    height: 100%;
+    width: 100%;
+}
+
+box-image {
+    height: 300px;
+    width:100%;
+}
+
+box-map {
+    height: 200px;
+    width:100%;
+}
+
+dot {
+    margin-top: 10px;
+    height: 19px;
+    width: 20px;
+}
+
+shimmer {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+lines-height-medium {
+    height: 19px;
+    margin-top: 10px;
+    width: 90px;
+}
+
+lines-height-large {
+    height: 19px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+lines {
+    height: 13px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+lines-large {
+    height: 13px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+lines-medium {
+    height: 13px;
+    margin-top: 10px;
+    width: 90px;
+}
+
+photo {
+    display: block!important;
+    width: 325px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+@-webkit-keyframes placeholderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}
