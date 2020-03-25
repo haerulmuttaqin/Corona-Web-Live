@@ -193,7 +193,7 @@
                                 <div class="align-items-center" style="margin-top:-10px; margin-bottom: 20px;">
                                         <span class="text-secondary align-middle" style="float: right;">Hubungi —
                                             &nbsp;&nbsp;</span>
-                                    <a href="https://api.whatsapp.com/send?phone=6282199838282&text=Saya%20mau%20tanya%20undangan%20"
+                                    <a href="<?= base_url('hotline') ?>"
                                        class="btn btn-lg btn-outline-light anim-slideup text-center align-middle"
                                        style="float: right;">
                                         <span class="font-btn-small font-weight-thin align-middle">HOTLINE CORONA</span>
